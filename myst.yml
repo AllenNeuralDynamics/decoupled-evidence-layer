@@ -1,0 +1,37 @@
+version: 1
+project:
+  id: decoupled-evidence-layer
+  title: "Toward a Shared, Decoupled Evidence Layer for AI-Era Science"
+  subtitle: A consensus draft for data producers, analysts, archivists, and publishers
+  description: >
+    A consensus perspective aligning data producers, data analysts, archivists,
+    and data publishers around interoperable, DOI-addressed evidence manifests and
+    independently credited derivatives for research and wider reuse.
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  open_access: true
+  date: 2026-07-18
+  authors:
+    - id: author-lecoq
+      name: Jerome Lecoq
+      orcid: 0000-0002-0131-0938
+      affiliations:
+        - ai-publishing-lab
+  affiliations:
+    - id: ai-publishing-lab
+      name: AI Publishing Perspective Project
+      city: Seattle
+      region: WA
+      country: US
+  plugins:
+    - authorship-plugin.mjs
+  bibliography:
+    - references.bib
+  github: https://github.com/AllenNeuralDynamics/decoupled-evidence-layer
+  toc:
+    - file: index.md
+site:
+  title: Shared, Decoupled Evidence Layer for AI-Era Science
+  options:
+    favicon: null

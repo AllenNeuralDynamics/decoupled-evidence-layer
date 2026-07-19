@@ -1,0 +1,29 @@
+{
+  "illustrative_outcomes": [
+    {"study": "Study A", "outcome": "supports effect"},
+    {"study": "Study B", "outcome": "null result"},
+    {"study": "Study C", "outcome": "inconclusive"}
+  ],
+  "paper_centered_record": {
+    "visibility_rule": "article publication",
+    "outcome_visibility": {
+      "supports effect": "more likely visible",
+      "null result": "less likely visible",
+      "inconclusive": "less likely visible"
+    },
+    "visible_evidence": "selected subset",
+    "synthesis_denominator": "unknown"
+  },
+  "evidence_first_record": {
+    "visibility_rule": "independent evidence sharing",
+    "outcome_visibility": {
+      "supports effect": "citable record",
+      "null result": "citable record",
+      "inconclusive": "citable record"
+    },
+    "visible_evidence": "all shared outcomes",
+    "synthesis_denominator": "more complete"
+  },
+  "claim": "Independent evidence sharing can reduce availability bias and distinguish not studied from studied without support.",
+  "caveat": "The model does not remove methodological bias, incomplete sharing, or poor-quality evidence."
+}

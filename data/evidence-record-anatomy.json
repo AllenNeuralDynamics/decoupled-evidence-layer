@@ -1,0 +1,47 @@
+{
+  "profile_status": "proposed illustrative minimum",
+  "record": {
+    "@type": "EvidenceRecord",
+    "identifier": {
+      "scheme": "DOI",
+      "value": "10.xxxx/evidence-record.example",
+      "resolves_to": ["human landing page", "machine-readable manifest"]
+    },
+    "context": {
+      "study_design": "required",
+      "measured_variables": "required",
+      "uncertainty": "required",
+      "quality_control_status": "required"
+    },
+    "objects": [
+      {
+        "relation": "hasData",
+        "identifier": "repository accession or DOI",
+        "authority": "domain data repository"
+      },
+      {
+        "relation": "usesSoftware",
+        "identifier": "immutable commit and release DOI",
+        "authority": "source and software archive"
+      },
+      {
+        "relation": "usesProtocol",
+        "identifier": "version DOI",
+        "authority": "protocol repository"
+      },
+      {
+        "relation": "generatesFigure",
+        "identifier": "figure recipe identifier",
+        "authority": "figure or workflow archive"
+      }
+    ],
+    "contributors": {
+      "identifiers": "ORCID",
+      "roles": "CRediT or domain-specific roles"
+    },
+    "evidence_relations": ["isDerivedFrom", "replicates", "extends"],
+    "record_state": ["version", "license", "checksum", "correction or retraction status"]
+  },
+  "profile_rule": "The manifest links authoritative objects and related evidence records; it does not copy them.",
+  "implementation": ["JSON-LD", "RO-Crate profile", "DataCite DOI metadata"]
+}

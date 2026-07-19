@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 680" role="img" aria-labelledby="title desc">
+  <title id="title">AI can only synthesize evidence that enters the scholarly record</title>
+  <desc id="desc">Three illustrative completed studies produce a supporting, null, and inconclusive result. The paper-centered model exposes a selected subset and leaves the synthesis denominator unknown. The evidence-first model exposes all shared outcomes and provides a more complete denominator.</desc>
+  <defs>
+    <style>
+      text { font-family: Avenir, Helvetica, Arial, sans-serif; fill: #19323c; }
+      .title { font-size: 28px; font-weight: 800; }
+      .subtitle { font-size: 15px; fill: #4d6268; }
+      .eyebrow { font-size: 11px; font-weight: 800; letter-spacing: 0.8px; fill: #4d6268; }
+      .panel-title { font-size: 20px; font-weight: 800; }
+      .card-title { font-size: 14px; font-weight: 800; }
+      .small { font-size: 12px; fill: #4d6268; }
+      .micro { font-size: 11px; fill: #4d6268; }
+      .panel { fill: #ffffff; stroke: #c8d2d3; stroke-width: 1.5; }
+      .card { stroke: #19323c; stroke-width: 1.5; }
+      .gate { fill: #ffffff; stroke: #60767c; stroke-width: 2; stroke-dasharray: 7 5; }
+      .flow { stroke: #60767c; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#60767c"/>
+    </marker>
+  </defs>
+
+  <rect width="1040" height="680" rx="8" fill="#ffffff"/>
+  <text x="40" y="48" class="title">AI can only synthesize what enters the record</text>
+  <text x="40" y="76" class="subtitle">Independent evidence sharing makes completed outcomes queryable even when no article follows.</text>
+
+  <rect class="panel" x="40" y="105" width="465" height="530" rx="8"/>
+  <text x="62" y="137" class="eyebrow">PAPER-CENTERED RECORD</text>
+  <text x="62" y="166" class="panel-title">Narrative selects visibility</text>
+  <text x="62" y="188" class="small">Illustrative completed studies</text>
+
+  <rect class="card" x="65" y="210" width="125" height="70" rx="6" fill="#dce9e1"/>
+  <rect class="card" x="210" y="210" width="125" height="70" rx="6" fill="#dce9e1"/>
+  <rect class="card" x="355" y="210" width="125" height="70" rx="6" fill="#dce9e1"/>
+  <text x="127" y="237" text-anchor="middle" class="card-title">Study A</text>
+  <text x="127" y="260" text-anchor="middle" class="small">supports effect</text>
+  <text x="272" y="237" text-anchor="middle" class="card-title">Study B</text>
+  <text x="272" y="260" text-anchor="middle" class="small">null result</text>
+  <text x="417" y="237" text-anchor="middle" class="card-title">Study C</text>
+  <text x="417" y="260" text-anchor="middle" class="small">inconclusive</text>
+
+  <path class="flow" d="M127 284 L127 316"/>
+  <path class="flow" d="M272 284 L272 316"/>
+  <path class="flow" d="M417 284 L417 316"/>
+  <rect class="gate" x="65" y="322" width="415" height="66" rx="6"/>
+  <text x="272" y="345" text-anchor="middle" class="eyebrow">ARTICLE PUBLICATION GATE</text>
+  <text x="127" y="373" text-anchor="middle" class="micro">more likely visible</text>
+  <text x="272" y="373" text-anchor="middle" class="micro">less likely visible</text>
+  <text x="417" y="373" text-anchor="middle" class="micro">less likely visible</text>
+
+  <path class="flow" d="M272 392 L272 414"/>
+  <rect class="card" x="65" y="420" width="415" height="68" rx="6" fill="#f2d0c7"/>
+  <text x="272" y="447" text-anchor="middle" class="eyebrow">VISIBLE EVIDENCE</text>
+  <text x="272" y="470" text-anchor="middle" class="card-title">Selected subset</text>
+
+  <path class="flow" d="M272 492 L272 514"/>
+  <rect class="card" x="65" y="520" width="415" height="78" rx="6" fill="#f2d0c7"/>
+  <text x="272" y="548" text-anchor="middle" class="eyebrow">SYNTHESIS DENOMINATOR</text>
+  <text x="272" y="576" text-anchor="middle" class="card-title">Unknown</text>
+
+  <rect class="panel" x="535" y="105" width="465" height="530" rx="8"/>
+  <text x="557" y="137" class="eyebrow">EVIDENCE-FIRST RECORD</text>
+  <text x="557" y="166" class="panel-title">Sharing broadens visibility</text>
+  <text x="557" y="188" class="small">The same illustrative studies</text>
+
+  <rect class="card" x="560" y="210" width="125" height="70" rx="6" fill="#dce9e1"/>
+  <rect class="card" x="705" y="210" width="125" height="70" rx="6" fill="#dce9e1"/>
+  <rect class="card" x="850" y="210" width="125" height="70" rx="6" fill="#dce9e1"/>
+  <text x="622" y="237" text-anchor="middle" class="card-title">Study A</text>
+  <text x="622" y="260" text-anchor="middle" class="small">supports effect</text>
+  <text x="767" y="237" text-anchor="middle" class="card-title">Study B</text>
+  <text x="767" y="260" text-anchor="middle" class="small">null result</text>
+  <text x="912" y="237" text-anchor="middle" class="card-title">Study C</text>
+  <text x="912" y="260" text-anchor="middle" class="small">inconclusive</text>
+
+  <path class="flow" d="M622 284 L622 316"/>
+  <path class="flow" d="M767 284 L767 316"/>
+  <path class="flow" d="M912 284 L912 316"/>
+  <rect class="gate" x="560" y="322" width="415" height="66" rx="6"/>
+  <text x="767" y="345" text-anchor="middle" class="eyebrow">INDEPENDENT EVIDENCE SHARING</text>
+  <text x="622" y="373" text-anchor="middle" class="micro">citable record</text>
+  <text x="767" y="373" text-anchor="middle" class="micro">citable record</text>
+  <text x="912" y="373" text-anchor="middle" class="micro">citable record</text>
+
+  <path class="flow" d="M767 392 L767 414"/>
+  <rect class="card" x="560" y="420" width="415" height="68" rx="6" fill="#cfe2ec"/>
+  <text x="767" y="447" text-anchor="middle" class="eyebrow">VISIBLE EVIDENCE</text>
+  <text x="767" y="470" text-anchor="middle" class="card-title">All shared outcomes</text>
+
+  <path class="flow" d="M767 492 L767 514"/>
+  <rect class="card" x="560" y="520" width="415" height="78" rx="6" fill="#cfe2ec"/>
+  <text x="767" y="548" text-anchor="middle" class="eyebrow">SYNTHESIS DENOMINATOR</text>
+  <text x="767" y="576" text-anchor="middle" class="card-title">More complete</text>
+</svg>

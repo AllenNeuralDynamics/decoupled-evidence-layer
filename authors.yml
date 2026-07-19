@@ -1,0 +1,67 @@
+version: 1
+
+project:
+  contributors:
+    - id: author-lecoq
+      name: Jerome Lecoq
+      orcid: 0000-0002-0131-0938
+      roles:
+        - Conceptualization
+        - Methodology
+        - Writing – original draft
+        - Writing – review & editing
+        - Supervision
+      affiliations:
+        - ai-publishing-lab
+      first_name: Jerome
+      last_name: Lecoq
+      career_stage: Perspective lead
+      credit_levels:
+        - role: Conceptualization
+          level: lead
+        - role: Methodology
+          level: lead
+        - role: Writing – original draft
+          level: lead
+        - role: Writing – review & editing
+          level: lead
+        - role: Supervision
+          level: lead
+      section_contributions:
+        - section: rethinking-the-publication-unit
+          description: Framed the separation of shared evidence from narrative interpretation.
+          effort: lead
+        - section: a-layered-publication-model
+          description: Defined the evidence, data, code, figure, protocol, metadata, and authorship model.
+          effort: lead
+        - section: defining-the-evidence-record
+          description: Defined the interoperable evidence-record profile, manifest fields, and archive requirements.
+          effort: lead
+        - section: a-larger-derived-space
+          description: Developed the many-to-many derived-space, computational-review, and research-encyclopedia concepts.
+          effort: lead
+        - section: coordinating-a-shared-evidence-layer
+          description: Defined the coordination priorities and shared interoperability boundary.
+          effort: lead
+      figure_contributions:
+        - figure: fig-publication-models
+          description: Conceived the current-versus-decoupled publication model.
+        - figure: fig-evidence-visibility
+          description: Conceived the evidence-visibility and AI availability-bias comparison.
+        - figure: fig-evidence-record-anatomy
+          description: Conceived the minimum evidence record and typed-reference architecture.
+      contribution_statement: >
+        Led the perspective, conceptual framing, review architecture, and final
+        editorial decisions.
+      timeline:
+        joined: "2026-07"
+        milestones:
+          - date: "2026-07"
+            event: Drafted the initial AI-era publishing perspective.
+
+  affiliations:
+    - id: ai-publishing-lab
+      name: AI Publishing Perspective Project
+      city: Seattle
+      region: WA
+      country: US

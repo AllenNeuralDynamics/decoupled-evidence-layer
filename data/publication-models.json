@@ -1,0 +1,25 @@
+{
+  "current_model": {
+    "relationship": "one privileged derivation per evidence asset",
+    "package": "article",
+    "bundles": [
+      {"object": "Narrative and claim", "color_role": "coral"},
+      {"object": "Figure and analysis", "color_role": "amber"},
+      {"object": "Data and methods", "color_role": "green"},
+      {"object": "Article byline", "color_role": "violet"}
+    ]
+  },
+  "proposed_model": {
+    "relationship": "many-to-many",
+    "mappings": [
+      {"from": "Narrative and claim", "to": ["Paper", "Review", "Decision tool"], "color_role": "coral"},
+      {"from": "Figure and analysis", "to": "Reusable analysis and figure recipe", "color_role": "amber"},
+      {"from": "Data and methods", "to": ["Evidence A", "Evidence B"], "color_role": "green"},
+      {"from": "Article byline", "to": "Attribution on every object", "color_role": "violet"}
+    ],
+    "principles": [
+      "Each object carries its own attribution.",
+      "Citations carry credit across layers."
+    ]
+  }
+}

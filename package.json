@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "myst build --html",
+    "start": "myst start"
+  },
+  "dependencies": {
+    "yaml": "^2.9.0"
+  }
+}

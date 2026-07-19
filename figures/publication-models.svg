@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 660" role="img" aria-labelledby="title desc">
+  <title id="title">Current coupled publication and proposed decoupled evidence model</title>
+  <desc id="desc">The current model bundles narrative, analysis, data, methods, and authorship in one article. The proposed model preserves the same color-coded components as reusable evidence, analysis, derived outputs, and attribution attached to every object.</desc>
+  <defs>
+    <style>
+      text { font-family: Avenir, Helvetica, Arial, sans-serif; fill: #19323c; }
+      .title { font-size: 28px; font-weight: 800; }
+      .subtitle { font-size: 15px; fill: #4d6268; }
+      .eyebrow { font-size: 13px; font-weight: 800; letter-spacing: 1px; }
+      .panel-title { font-size: 21px; font-weight: 800; }
+      .label { font-size: 16px; font-weight: 800; }
+      .small { font-size: 13px; fill: #4d6268; }
+      .micro { font-size: 12px; fill: #5f7075; }
+      .box { stroke: #19323c; stroke-width: 2.2; }
+      .panel { fill: #ffffff; stroke: #c8d2d3; stroke-width: 1.5; }
+      .current-arrow { stroke: #60767c; stroke-width: 3.5; fill: none; marker-end: url(#arrow-current); }
+      .new-arrow { stroke: #60767c; stroke-width: 3; fill: none; marker-end: url(#arrow-new); }
+      .new-line { stroke: #60767c; stroke-width: 3; fill: none; }
+    </style>
+    <marker id="arrow-current" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#60767c"/>
+    </marker>
+    <marker id="arrow-new" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#60767c"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#1f2d2a" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+
+  <rect width="1040" height="660" rx="8" fill="#ffffff"/>
+  <text x="40" y="52" class="title">From one bundled article to reusable evidence</text>
+  <text x="40" y="80" class="subtitle">Decoupling preserves evidence while allowing many credited interpretations and applications.</text>
+
+  <rect class="panel" x="40" y="110" width="450" height="505" rx="8"/>
+  <text x="66" y="145" class="eyebrow" fill="#4d6268">CURRENT MODEL</text>
+  <text x="66" y="177" class="panel-title">One bundled publication</text>
+  <text x="66" y="202" class="small">Evidence and interpretation travel together.</text>
+
+  <g filter="url(#shadow)">
+    <rect class="box" x="72" y="292" width="142" height="78" rx="8" fill="#dce9e1"/>
+  </g>
+  <text x="143" y="323" text-anchor="middle" class="label">Experiment</text>
+  <text x="143" y="348" text-anchor="middle" class="small">one data asset</text>
+
+  <path class="current-arrow" d="M220 331 L270 331"/>
+  <text x="245" y="312" text-anchor="middle" class="micro">one route</text>
+
+  <g filter="url(#shadow)">
+    <rect class="box" x="278" y="235" width="174" height="272" rx="8" fill="#ffffff"/>
+  </g>
+  <text x="365" y="267" text-anchor="middle" class="eyebrow" fill="#4d6268">ARTICLE</text>
+  <rect x="296" y="286" width="138" height="42" rx="6" fill="#f2d0c7"/>
+  <text x="365" y="312" text-anchor="middle" class="small">Narrative + claim</text>
+  <rect x="296" y="338" width="138" height="42" rx="6" fill="#f4dfbc"/>
+  <text x="365" y="364" text-anchor="middle" class="small">Figure + analysis</text>
+  <rect x="296" y="390" width="138" height="42" rx="6" fill="#dce9e1"/>
+  <text x="365" y="416" text-anchor="middle" class="small">Data + methods</text>
+  <rect x="296" y="442" width="138" height="42" rx="6" fill="#e2dced"/>
+  <text x="365" y="468" text-anchor="middle" class="small">Article byline</text>
+
+  <text x="66" y="558" class="label">One privileged derivation</text>
+  <text x="66" y="583" class="small">Reuse begins by unpacking the article.</text>
+
+  <rect class="panel" x="515" y="110" width="485" height="505" rx="8"/>
+  <text x="541" y="145" class="eyebrow" fill="#4d6268">PROPOSED MODEL</text>
+  <text x="541" y="177" class="panel-title">Evidence and derivatives decoupled</text>
+  <text x="541" y="202" class="small">The same components become reusable, credited objects.</text>
+
+  <text x="541" y="226" class="eyebrow" fill="#4d6268">DERIVED LAYER</text>
+
+  <g filter="url(#shadow)">
+    <rect class="box" x="540" y="240" width="130" height="104" rx="8" fill="#f2d0c7"/>
+    <rect class="box" x="690" y="240" width="130" height="104" rx="8" fill="#f2d0c7"/>
+    <rect class="box" x="840" y="240" width="130" height="104" rx="8" fill="#f2d0c7"/>
+  </g>
+  <text x="605" y="273" text-anchor="middle" class="label">Paper</text>
+  <text x="605" y="298" text-anchor="middle" class="micro">narrative + claims</text>
+  <text x="755" y="273" text-anchor="middle" class="label">Review</text>
+  <text x="755" y="298" text-anchor="middle" class="micro">new synthesis</text>
+  <text x="905" y="273" text-anchor="middle" class="label">Decision tool</text>
+  <text x="905" y="298" text-anchor="middle" class="micro">public / private</text>
+  <rect x="541" y="317" width="128" height="26" fill="#e2dced"/>
+  <rect x="691" y="317" width="128" height="26" fill="#e2dced"/>
+  <rect x="841" y="317" width="128" height="26" fill="#e2dced"/>
+  <text x="605" y="335" text-anchor="middle" class="micro">attribution</text>
+  <text x="755" y="335" text-anchor="middle" class="micro">attribution</text>
+  <text x="905" y="335" text-anchor="middle" class="micro">attribution</text>
+
+  <path class="new-line" d="M605 456 L605 394 L905 394 L905 456"/>
+  <path class="new-line" d="M755 456 L755 394"/>
+  <path class="new-arrow" d="M605 394 L605 350"/>
+  <path class="new-arrow" d="M755 394 L755 350"/>
+  <path class="new-arrow" d="M905 394 L905 350"/>
+  <rect x="690" y="402" width="130" height="22" rx="3" fill="#ffffff"/>
+  <text x="755" y="417" text-anchor="middle" class="micro">many-to-many reuse</text>
+
+  <g filter="url(#shadow)">
+    <rect class="box" x="540" y="456" width="130" height="98" rx="8" fill="#dce9e1"/>
+    <rect class="box" x="690" y="456" width="130" height="98" rx="8" fill="#dce9e1"/>
+    <rect class="box" x="840" y="456" width="130" height="98" rx="8" fill="#f4dfbc"/>
+  </g>
+  <text x="605" y="486" text-anchor="middle" class="label">Evidence A</text>
+  <text x="605" y="508" text-anchor="middle" class="micro">data + methods</text>
+  <text x="755" y="486" text-anchor="middle" class="label">Evidence B</text>
+  <text x="755" y="508" text-anchor="middle" class="micro">data + methods</text>
+  <text x="905" y="482" text-anchor="middle" class="label">Analysis +</text>
+  <text x="905" y="502" text-anchor="middle" class="label">figure recipe</text>
+  <rect x="541" y="527" width="128" height="26" fill="#e2dced"/>
+  <rect x="691" y="527" width="128" height="26" fill="#e2dced"/>
+  <rect x="841" y="527" width="128" height="26" fill="#e2dced"/>
+  <text x="605" y="545" text-anchor="middle" class="micro">attribution</text>
+  <text x="755" y="545" text-anchor="middle" class="micro">attribution</text>
+  <text x="905" y="545" text-anchor="middle" class="micro">attribution</text>
+
+</svg>
