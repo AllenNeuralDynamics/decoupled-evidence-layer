@@ -77,7 +77,7 @@ project:
           level: supporting
       section_contributions:
         - section: a-proposed-evidence-record
-          description: Clarified the distinction between manifest conformance, scientific validity, and auditable quality signals.
+          description: Clarified the distinction between manifest conformance, scientific validity, and contextual trust assessments.
           effort: supporting
         - section: publishing-and-adopting-evidence-records
           description: Contributed interoperability, lifecycle, correction, and standards-composition considerations.
@@ -86,8 +86,10 @@ project:
           description: Developed authoring-burden, AI-assistance, human-verification, and pilot-evaluation considerations.
           effort: supporting
       contribution_statement: >
-        Contributed the quality and trust distinction, interoperability and
-        lifecycle considerations, and the low-burden pilot framework.
+        Contributed the distinction between evidence-record conformance and
+        scientific assessment, the separation of evidence subjects from
+        contextual trust assessments, interoperability and lifecycle
+        considerations, and the low-burden pilot framework.
       timeline:
         joined: "2026-07"
         milestones:
