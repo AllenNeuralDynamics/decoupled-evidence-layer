@@ -59,6 +59,40 @@ project:
           - date: "2026-07"
             event: Drafted the initial AI-era publishing perspective.
 
+    - id: author-huzard
+      name: Damien Huzard
+      orcid: 0000-0003-4820-7951
+      roles:
+        - Conceptualization
+        - Writing – review & editing
+      first_name: Damien
+      last_name: Huzard
+      career_stage: Contributor
+      credit_levels:
+        - role: Conceptualization
+          level: supporting
+        - role: Writing – review & editing
+          level: supporting
+      section_contributions:
+        - section: a-proposed-evidence-record
+          description: Clarified the distinction between manifest conformance, scientific validity, and auditable quality signals.
+          effort: supporting
+        - section: publishing-and-adopting-evidence-records
+          description: Contributed interoperability, lifecycle, correction, and standards-composition considerations.
+          effort: supporting
+        - section: from-proposal-to-pilot
+          description: Developed authoring-burden, AI-assistance, human-verification, and pilot-evaluation considerations.
+          effort: supporting
+      contribution_statement: >
+        Contributed the quality and trust distinction, interoperability and
+        lifecycle considerations, and the low-burden pilot framework.
+      timeline:
+        joined: "2026-07"
+        milestones:
+          - date: "2026-07"
+            event: Contributed feedback and revisions through issue 1.
+
+
   affiliations:
     - id: ai-publishing-lab
       name: AI Publishing Perspective Project
