@@ -62,6 +62,8 @@ project:
     - id: author-huzard
       name: Damien Huzard
       orcid: 0000-0003-4820-7951
+      affiliations:
+        - neuronautix
       roles:
         - Conceptualization
         - Writing – review & editing
@@ -99,3 +101,7 @@ project:
       city: Seattle
       region: WA
       country: US
+    - id: neuronautix
+      name: Neuronautix
+      city: Montpellier
+      country: France
