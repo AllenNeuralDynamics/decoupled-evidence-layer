@@ -18,6 +18,9 @@ project:
       orcid: 0000-0002-0131-0938
       affiliations:
         - ai-publishing-lab
+    - id: author-huzard
+      name: Damien Huzard
+      orcid: 0000-0003-4820-7951
   affiliations:
     - id: ai-publishing-lab
       name: AI Publishing Perspective Project
